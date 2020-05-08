@@ -1,0 +1,33 @@
+.fix-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    z-index: 100;
+    width: 100%;
+    background: #fff;
+}
+.header-wrapper{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .left{
+        position: absolute;
+        left: 12px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #000;
+    }
+}

@@ -1,0 +1,33 @@
+.am-card{
+    min-height: 126px;
+    .am-card-body{
+        div{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+    }
+    .am-card-header {
+        background-color: #108ee9;
+        .am-card-header-content{
+            color: #ffffff;
+        }
+    }
+}
+.am-card::after{
+    //    display: none!important;
+}
+
+.add-new-note{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+}

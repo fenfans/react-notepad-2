@@ -1,0 +1,8 @@
+enum ACTION_TYPE {
+  GET_NOTES = 'GET_NOTES',
+  ADD_NOTE = 'ADD_NOTE',
+  UPDATE_NOTE = 'UPDATE_NOTE',
+  DELETE_NOTE = 'DELETE_NOTE',
+}
+
+export default ACTION_TYPE;
